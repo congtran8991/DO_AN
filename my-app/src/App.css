@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+.titleNameProject {
+  font-family: initial;
+  color: aliceblue;
+  font-weight: 700;
+  width: max-content;
+}
+.cardCategory-Height {
+  height: 550px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+.card-list p {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  color: blue;
+  cursor: pointer;
+}
+.border-content {
+  /* border-left: 2px solid gray;
+  height: 600px;
+  max-height: 1000px !important; */
+}
+.content-category {
+  border-right: 2px solid gray;
+  height: 600px;
+}
+.selected-test {
+  padding-left: 130px;
+}
+.width-selected {
+  width: 300px;
+}
+.left-selected {
+  margin-left: 67px;
+}
+.createButon {
+  margin-left: 20px;
+}
+.content-test {
+}
+.scroll-contentTest {
+}
+.nav-title {
+  position: fixed;
+  z-index: 1;
+  width: 2000px;
+}
+.allContentTest {
+  position: relative;
+}
+.card-answer {
+  z-index: 8;
+  position: fixed;
+}
+.content-answer {
+  position: fixed;
+  z-index: 1;
+  right: 50px !important;
+  display: inline-block;
+}
+.br-header {
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn_answer {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 20px;
+  border: 1px solid gray !important;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 13px;
+}
+.girl-hidden {
+  z-index: 0;
+}
+.rt-card {
+  width: 190px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+table {
+  border-collapse: collapse;
+  background-color: white;
+  overflow: hidden;
+  width: 500px;
+}
+
+th,
+td {
+  font-family: "Motnserrat", sans-serif;
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+}
+th {
+  border: black solid 1px !important;
+}
+td {
+  border: #0e3255 solid 1px !important;
+  /* border-bottom: #0e3255 solid 1px !important; */
+}
+tr:last-child {
+  border-bottom: #007bff solid 1px !important;
+  border-top: #007bff solid 1px !important;
+}
+td:last-child {
+  border-right: #0e3255 solid 1px !important;
+}
+/*
+tr:first-child{
+  border-left: #0e3255 solid 2px !important ;
+} */
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+.title-mangement {
+  font-family: "Font Awesome 5 Free";
+  color: blue;
+}
+.size-chart {
+}
+.chartjs-render-monitor {
+  height: 400px !important;
+}
+.form-login {
+  width: 100px;
+}
+.form-control {
+  display: inline-block !important;
+  width: 300px;
+}
+.boder-right {
+  padding-top: 40px;
+}
+.padding-size {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.btn-size {
+  height: 30px;
+  width: 100px;
+  line-height: 10px;
+}
+.correct-answer .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: red !important;
+}
+.codeTest {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.font-option {
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+.log-in {
+  position: fixed;
+  right: 0px;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.scroll-horizental-histo {
+  /* overflow-x: scroll; */
+}
+.chartWrapper {
+  position: relative;
+}
+
+.chartWrapper > canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.chartAreaWrapper {
+  overflow-x: scroll;
+}
